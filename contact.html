@@ -1,0 +1,99 @@
+<!DocType html>
+
+<html>	
+	<head>
+		<!--School: Moraine Park Techinical College
+    Course: webcoding technologies
+    Instructor: Dom Garofalo
+    
+    Author: Brenna Ebert
+    Assessment: LP5 - contact form
+    
+    Filename: contact.html                  
+-->
+		<meta charset="utf-8">
+		<title> Contact Form</title>
+		<meta name="keywords" content="contact form, Project, Webpage">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="contact-form">
+    	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+	</head>
+	<body>
+		<div id="wrap">
+		<main>
+			<div id= "navigation">
+            <nav>
+                <ul style="text-align: center; font-weight: bold" >
+                <li><a href= "index.html">Home</a></li>
+                <li><a href="webography.html">Webography</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>XML Demo</li>
+                </ul>
+            </nav>
+            </div>
+			<h1> Contact Us</h1>
+
+			<form class="contact-form" action="formail.php" method="post">
+				<div id="person-info">
+				<input type="text" name="firstName" placeholder="First name"><br>
+				<input type="text" name="lastName" placeholder="Last name"><br>
+				<input type="email" name="email" placeholder="Email"><br>
+				<input type="tel" name="phoneNumber" placeholder="Phone number"><br>
+				</div>
+				<h3> What browser are you using?</h3> 
+				<input id="browser1" type="checkbox" name="FireFox"> <label for="browser1">FireFox</label><br>
+				<input id="browser2" type="checkbox" name="Chrome"> <label for="browser2">Chrome</label><br>
+				<input id="browser3" type="checkbox" name="Safari"> <label for="browser3">Safari</label><br>
+				<input id="browser4" type="checkbox" name="InternetExplorer"> <label for="browser4">Internet Explorer</label><br>
+				<input id="browser5" type="checkbox" name="Opera"> <label for="browser5">Opera</label><br>
+
+				<h3> What operating system are you using?</h3>
+				<input id="os1" name="os1" type="radio" value="Windows 11"> <label for="os1">Windows 11</label><br>
+				<input id="os2" name="os2" type="radio" value="Windows 10"> <label for="os2">Windows 10</label><br>
+				<input id="os3" name="os3" type="radio" value="OSX"> <label for="os3">OSX</label><br>
+				<input id="os4" name="os4" type="radio" value="Windows 7"> <label for="os4">Windows 7</label><br>
+				<input id="os5" name="os5" type="radio" value="Linux"> <label for="os5">Linux</label><br>
+
+				<h3> What do you think of this site?</h3>
+				<select name="rate">
+					<option value="">select one:</option>
+					<option value="Excellent">Excellent</option>
+					<option value="Good">Good</option>
+					<option value="Fair">Fair</option>
+					<option value="Poor">Poor</option>
+				</select> <br>
+				<br>
+
+				<h3> Definiton of Ratings</h3>
+				<table>
+				<tr>
+				<th>Rating</th>
+				<th>Definition</th>
+				</tr>
+				<tr>
+				<td>Excellent</td>
+				<td>Of the highest or finest quality; exceptionally good for its kind.</td>
+				</tr>
+				<tr>
+				<td>Good</td>
+				<td>Being positive or desirable in nature; not bad or poor.</td>
+				</tr>
+				<tr>
+				<td>Fair</td>
+				<td>Of pleasing appearance, especially because of a pure or fresh quality; comely.</td>
+				</tr>
+				<tr>
+				<td>Poor</td>
+				<td>Not adequate in quality or quantity; inferior.</td>
+				</tr>
+				</table><br>
+
+				<h3> Comments</h3>
+				<textarea name="comments" placeholder="We would love some feedback!"></textarea><br>
+
+				<button type="submit" name="submit">Submit</button>
+			</form>
+		</main>
+	</body>
+</html>

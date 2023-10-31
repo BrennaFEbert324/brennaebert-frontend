@@ -18,7 +18,7 @@
 		nav {
 			font-family: monospace;
 			font-size: 20px;
-			style="width: 100%; 
+			width: 100%; 
 			height: 200xp; 
 			background-color: floralwhite;
 		}
@@ -40,6 +40,12 @@
     background-image: -webkit-linear-gradient(bottom,#FFF 0%,#FFB6C1 100%);
 		}
 
+		#person-info {
+			border: 3px solid white;
+    		height: 150px;
+    		width : 200px;
+		}
+
 		img {
 			height: 350px;
 			width: 200px;
@@ -59,3 +65,28 @@
 		a:active {
 			color:lightpink;
 			}
+		 table {
+	    font-family: arial, sans-serif;
+	    border-collapse: collapse;
+	    width: 100%;
+	   }
+
+	   td, th {
+	   	border: 3px solid black;
+	    text-align: left;
+	    padding: 8px;
+	    background-color: lightpink;
+
+	   }
+
+	   tr:nth-child(even) {
+	    background-color: #dddddd;
+	    padding: 3px;
+		}
+
+
+
+
+
+
+
