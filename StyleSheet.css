@@ -42,8 +42,16 @@
 
 		#person-info {
 			border: 3px solid white;
-    		height: 150px;
-    		width : 200px;
+    		height: 100px;
+    		width : 100px;
+		}
+		#person-info input {
+			width: 200px;
+			height: 25px;
+			margin: 3px;
+			border-radius: 10px;
+			background-color: lightpink;
+			border: dashed 1px black;
 		}
 
 		img {
@@ -65,6 +73,7 @@
 		a:active {
 			color:lightpink;
 			}
+			
 		 table {
 	    font-family: arial, sans-serif;
 	    border-collapse: collapse;
